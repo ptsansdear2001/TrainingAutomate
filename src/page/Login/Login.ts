@@ -14,7 +14,7 @@ export class LoginPage {
     await this.page.locator(selectorslogin.Password).fill(datalogin.pass);
     await this.page.locator(selectorslogin.LoginButton).click();
     await this.page.locator(selectorslogin.Combutton).click();
-
+  
   }
 
 
