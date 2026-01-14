@@ -5,10 +5,6 @@ export const SelEmp = {
 
     // EmpDropdownMenu
     EmpDropdown: '#ctl00_dropdown_ddlMenu_Input',
-    //*[@id="kt_header"]/div[1]/nav/ol/nav/ol/li[2]
-
-    //li[text()="Resignation note"]
-    
     // General Information
     EmployeeInformation: '#leftbar1_divPersonal',
     PersonnelButton: '#leftbar1_lblleft_Usermenu_Personal',

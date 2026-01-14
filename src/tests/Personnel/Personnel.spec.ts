@@ -29,7 +29,6 @@ test.describe('Module Personnel', () => {
     await page.locator('#ctl00_MainContent_Combo_Initial_Input').click();
     await page.getByRole('listitem').filter({ hasText: 'นาย Mr.' }).click();
 
-
     // 3. กรอกชื่อ-นามสกุล (ไทย/อังกฤษ)
     await page.fill('#MainContent_Txt_FnameT', 'เพลไรท์');
     await page.fill('#MainContent_Txt_LnameT', 'อิอิ');
