@@ -3,5 +3,10 @@
     "@playwright/test": "^1.56.1",
     "@types/node": "^24.10.1"
   },
-  "scripts": {}
+  "scripts": {
+    "headed" : "playwright test --headed",
+    "report" : "playwright show-report",
+    "test": "playwright test",
+    "codegen": "playwright codegen"
+  }
 }

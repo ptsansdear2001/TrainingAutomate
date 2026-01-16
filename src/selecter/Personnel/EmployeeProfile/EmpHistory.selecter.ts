@@ -5,7 +5,6 @@ export const SelEmp = {
 
     // EmpDropdownMenu
     EmpDropdown: '#ctl00_dropdown_ddlMenu_Input',
-
     // General Information
     EmployeeInformation: '#leftbar1_divPersonal',
     PersonnelButton: '#leftbar1_lblleft_Usermenu_Personal',
