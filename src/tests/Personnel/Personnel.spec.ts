@@ -5,7 +5,7 @@ import { LoginPage as Login } from '../../page/Login/Login.ts';
 
 
 
-test.describe.serial('Module Personnel', () => {
+test.describe('Module Personnel', () => {
   let Psnpage!: PersonnelPage;
   let loginPage!: Login;
 
@@ -20,35 +20,7 @@ test.describe.serial('Module Personnel', () => {
     await Psnpage.openPersonnelModule();
     await Psnpage.addPersonnelrequest();
 
-
   });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   test('เพิ่ม พนง ที่บังคับ', async ({ page }) => {
