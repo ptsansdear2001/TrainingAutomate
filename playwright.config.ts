@@ -26,8 +26,8 @@ export default defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    trace: 'on', // หรือ on-first-retry ก็ได้
-    video: 'on', // ⭐ อัดวิดีโอทุก Test
+    trace: 'off', // หรือ on-first-retry ก็ได้
+    video: 'off', // ⭐ อัดวิดีโอทุก Test
     screenshot: 'on', // ให้มีภาพใน report
   },
 
