@@ -12,7 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: './src/tests/ReimbursementOfExpenses/DisbursementOfExpenses',
+  testDir: './src/tests',
   /* Run tests in files in parallel */
   timeout: 100000,
   fullyParallel: true,
@@ -26,6 +26,7 @@ export default defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
+    actionTimeout:30000,
     trace: 'on', // หรือ on-first-retry ก็ได้
     video: 'on', // ⭐ อัดวิดีโอทุก Test
     screenshot: 'on', // ให้มีภาพใน report
@@ -33,10 +34,10 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
-    // {
-    //   name: 'chromium',
-    //   use: { ...devices['Desktop Chrome'] },
-    // },
+    {
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'] },
+    },
 
     // {
     //   name: 'firefox',
