@@ -1,0 +1,15 @@
+export const ProLicenseSelecter = {
+    empPro: "//*[@id='leftbar1_divPersonal']",
+    subEmpPro: "//*[@id='leftbar1_lblleft_Usermenu_Personal']",
+    dropDownProlicense: "//*[@id='ctl00_dropdown_ddlMenu']/span",
+    dropDownProlicenseExpand: "//*[@id='ctl00_dropdown_ddlMenu_DropDown']/div/ul/li[4]",
+    addButton: "//*[@id='ctl00_ContentTitleRight_RadToolBar1']/div/div/div/ul/li[1]/a",
+    personCodeField: "//*[@id='MainContent_Txt_PersonCode']",
+    licenseTypeField: "//*[@id='ctl00_MainContent_Combo_CerType_Input']",
+    numberField: "//*[@id='MainContent_txtCerNo']",
+    placeField: "//*[@id='MainContent_txtCerPlace']",
+    noteField: "//*[@id='MainContent_txtRemark']",
+    dateField: "//*[@id='MainContent_txtStartDate']",
+    expiredField: "//*[@id='MainContent_txtExpireDate']",
+    saveButton: "//*[@id='ctl00_ContentTitleRight_RadToolBar1']/div/div/div/ul/li[4]/a",
+};
